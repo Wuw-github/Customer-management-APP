@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS ADMINS;
+DROP TABLE IF EXISTS CUSTOMERS;
+CREATE TABLE ADMINS(
+    username VARCHAR(12) NOT NULL,
+    pwd VARCHAR(12) NOT NULL,
+    PRIMARY KEY (username)
+);
+CREATE TABLE CUSTOMERS (
+    username VARCHAR(12) NOT NULL,
+    firstname VARCHAR(40),
+    lastname VARCHAR(40) NOT NULL,
+    age int,
+    email VARCHAR(50),
+    PRIMARY KEY (username)
+);
