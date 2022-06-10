@@ -11,6 +11,7 @@ MySQL
 
 ### Table
 ADMINS: administrator account, login to do the customer operation
+
 CUSTOMERS: customer table
 
 ## Backend
